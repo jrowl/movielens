@@ -45,6 +45,11 @@ edx <- rbind(edx, removed)
 
 rm(dl, ratings, movies, test_index, temp, movielens, removed)
 
+#load libraries
+
+library(tidyverse)
+library(splitstackshape)
+
 ## Data cleansing and error checking
 
 #check for NA's
